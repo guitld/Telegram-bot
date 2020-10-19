@@ -13,8 +13,6 @@ import os
 import imageio
 import sys
 
-TOKEN = "1140857640:AAGEEX5lP5uIxcJxxSAGPIT4HVO87i8Bxrg"
-
 def start(update, context):
     send = "No worries people, KuBot has arrived!"
     update.message.reply_text(send)	
